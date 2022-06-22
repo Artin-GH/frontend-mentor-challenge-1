@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import './_base.css';
+
+@import 'tailwindcss/components';
+@import './_components.css' layer(components);
+
+@import 'tailwindcss/utilities';
+@import './_utilities.css' layer(utilities);

@@ -1,0 +1,25 @@
+.itemCon {
+  @apply sm:flex sm:items-center flex-grow md:space-x-6 sm:space-x-5 font-bold sm:max-w-none
+         max-w-sm mx-auto sm:text-left text-center sm:bg-transparent bg-darkViolet text-white
+         overflow-hidden rounded-lg sm:px-0 sm:py-0 px-4 py-1.5 text-[1.0625rem];
+  a {
+    @apply grid place-items-center;
+  }
+}
+
+.item {
+  &Link {
+    @apply sm:text-grayishViolet sm:text-sm sm:h-auto sm:hover:text-veryDarkViolet sm:inline
+             h-14 hover:text-grayishViolet;
+  }
+}
+
+.hamburger {
+  @apply sm:hidden ml-auto space-y-1 w-10;
+  > div {
+    @apply h-1.5 bg-veryDarkViolet rounded-full;
+  }
+  &:hover > div {
+    @apply bg-grayishViolet;
+  }
+}

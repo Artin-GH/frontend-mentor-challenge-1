@@ -1,0 +1,30 @@
+.container {
+  @apply mx-auto px-3 sm:px-6;
+}
+
+.btn {
+  @apply rounded-full font-bold block w-max cursor-pointer;
+  &Cyan {
+    @apply bg-cyan text-white hover:bg-opacity-60;
+  }
+  &Sm {
+    @apply text-sm px-5 py-[0.5rem];
+  }
+  &Md {
+    @apply text-base px-5 py-2;
+  }
+  &Lg {
+    @apply px-[1.9rem] py-[0.7rem] text-[1.125rem];
+  }
+  &Form {
+    @apply rounded-md;
+  }
+}
+
+.input {
+  @apply outline-none rounded-md focus:shadow-grayishViolet;
+  box-shadow: 0 0 0 2px var(--tw-shadow-color);
+  &Lg {
+    @apply py-[0.7rem] pl-5 pr-1 text-[1.125rem];
+  }
+}
